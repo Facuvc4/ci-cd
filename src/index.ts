@@ -3,7 +3,7 @@ import { add, multiply, subtract } from './math';
 
 const app = express();
 
-app.ge('/', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
